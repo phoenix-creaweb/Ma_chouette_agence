@@ -30,6 +30,42 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+/* Bloc citation */
+.citation
+{
+    width: 60%;
+margin: auto;
+}
+.citation p
+{
+    font-size: 2rem;
+}
+
+.citation_signature
+{
+    font-size: 1.5rem;
+}
+
+/* bloc définition du service */
+.service
+{
+    width:66%;
+    margin: auto;
+}
+.service p
+{
+    font-size: 2.2rem;
+}
+
+/* Bloc nos réalisations */
+
+.nos_realisations
+{
+    width: 50%;
+    margin: auto;
+}
+
+
 .bloc {
     width: 100%;
     clear: both;
@@ -92,11 +128,12 @@ a:hover {
     left: 0;
     right: 0;
 }
-
-.texture-paper::before {
+/* texture sur images de fond */
+ .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
+
 
 .b-parallax {
     background-attachment: fixed;
@@ -757,7 +794,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(165, 147, 99, 0.9);
     padding: 40px 40px 40px 40px;
 }
 
@@ -827,33 +864,6 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.png");
-}
-
-/* Bloc citation */
-.citation
-{
-    width: 60%;
-margin: auto;
-}
-.citation p
-{
-    font-size: 2rem;
-}
-
-.citation_signature
-{
-    font-size: 1.5rem;
-}
-
-/* bloc définition du service */
-.service
-{
-    width:66%;
-    margin: auto;
-}
-.service p
-{
-    font-size: 2.2rem;
 }
 
 
@@ -1072,3 +1082,4 @@ margin: auto;
         text-align: center;
     }
 }
+
