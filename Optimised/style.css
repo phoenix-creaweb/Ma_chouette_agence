@@ -1,3 +1,5 @@
+/* Généralités */
+
 body {
     margin: 0;
     padding: 0;
@@ -18,6 +20,7 @@ a:hover {
     cursor: pointer;
 }
 
+/* spinner */
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -678,7 +681,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -693,7 +696,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #ffffff!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -781,12 +784,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #000000!important;
+    color: #F3976C!important;
 }
 
 .ltc-white {
@@ -825,6 +828,34 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.png");
 }
+
+/* Bloc citation */
+.citation
+{
+    width: 60%;
+margin: auto;
+}
+.citation p
+{
+    font-size: 2rem;
+}
+
+.citation_signature
+{
+    font-size: 1.5rem;
+}
+
+/* bloc définition du service */
+.service
+{
+    width:66%;
+    margin: auto;
+}
+.service p
+{
+    font-size: 2.2rem;
+}
+
 
 @media (max-width: 1024px) {
     .bloc {
