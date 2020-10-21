@@ -33,7 +33,7 @@ a:hover {
 /* Bloc citation */
 .citation
 {
-    width: 60%;
+    width: 80%;
 margin: auto;
 }
 .citation p
@@ -129,11 +129,11 @@ margin: auto;
     right: 0;
 }
 /* texture sur images de fond */
- .texture-paper::before {
+ /*.texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
-
+*/
 
 .b-parallax {
     background-attachment: fixed;
@@ -794,7 +794,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.9);
+    background-color: #FF712E;
     padding: 40px 40px 40px 40px;
 }
 
@@ -812,21 +812,26 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #FF712E;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
+}
+
+.txt-blue
+{
+    color: #364577;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #FF712E;
     color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #000000!important;
-    color: #F3976C!important;
+    color: #FF712E!important;
 }
 
 .ltc-white {
@@ -838,7 +843,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #FF712E!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -850,20 +855,16 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
-
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.png");
+    background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.png");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 
