@@ -1,0 +1,14 @@
+{
+  "name": "optimised",
+  "version": "1.0.0",
+  "description": "optimised version of La chouette agence - OC project n°4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.0"
+  }
+}
